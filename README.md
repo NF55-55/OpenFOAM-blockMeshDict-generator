@@ -4,3 +4,5 @@ This code generates a blockMeshDict file partially filled with the necessary dat
 Outputs of the application:
 * blockMeshDict file with already included: **list of vertices coordinates**, **list of hex blocks** (no vertices, mesh and grading included), **list of typical boundaries** (inlet, outlet, walls).
 * **3D visualization** of the generated **fluid domain with numbered vertices** to simplify and speed up filling the missing sections.
+
+Compiling example: >> gcc .\main.c .\ones.c .\printVect.c .\scalarVectProd.c -o generateMeshDict.exe
